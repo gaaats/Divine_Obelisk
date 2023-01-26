@@ -3,10 +3,10 @@ package com.artifexmundi.bale.innt
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
-import com.artifexmundi.bale.apii.ApiInterface
-import com.artifexmundi.bale.apii.CountryRepo
+import com.artifexmundi.bale.apii.Inteee62626
+import com.artifexmundi.bale.apii.CountryRepohyyhyh
 import com.artifexmundi.bale.apii.DevRepo
-import com.artifexmundi.bale.apii.HostInterface
+import com.artifexmundi.bale.apii.HostInterfacegttgtg
 import com.artifexmundi.bale.vebbvii.BeamModrfrf6r2rf
 import com.artifexmundi.bale.vebbvii.ViModt6g2t2g
 import com.google.gson.Gson
@@ -32,14 +32,14 @@ fun hyjujjuuj(): Gson {
 
 val bghyhyjujik3ik62 = module {
 
-    single  <HostInterface> (named("HostInter")){
+    single  <HostInterfacegttgtg> (named("HostInter")){
         get<Retrofit>(named("RetroDev"))
-            .create(HostInterface::class.java)
+            .create(HostInterfacegttgtg::class.java)
     }
 
-    single <ApiInterface> (named("ApiInter")) {
+    single <Inteee62626> (named("ApiInter")) {
         get<Retrofit>(named("RetroCountry"))
-            .create(ApiInterface::class.java)
+            .create(Inteee62626::class.java)
     }
     single<Retrofit>(named("RetroCountry")) {
         Retrofit.Builder()
@@ -55,7 +55,7 @@ val bghyhyjujik3ik62 = module {
     }
 
     factory (named("CountryRep")) {
-        CountryRepo(get(named("ApiInter")))
+        CountryRepohyyhyh(get(named("ApiInter")))
     }
 
     factory  (named("DevRep")){

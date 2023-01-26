@@ -12,7 +12,7 @@ import com.appsflyer.AFInAppEventParameterName
 import com.appsflyer.AppsFlyerConversionListener
 import com.appsflyer.AppsFlyerLib
 import com.artifexmundi.bale.apii.CountryCodeJS
-import com.artifexmundi.bale.apii.CountryRepo
+import com.artifexmundi.bale.apii.CountryRepohyyhyh
 import com.artifexmundi.bale.apii.DevRepo
 import com.artifexmundi.bale.apii.GeoDev
 import com.artifexmundi.bale.cooont.Util26255.apppshy6
@@ -25,7 +25,7 @@ import kotlinx.coroutines.launch
 
 
 class ViModt6g2t2g(
-    private val hyhyyhjujkikiik: CountryRepo,
+    private val hyhyyhjujkikiik: CountryRepohyyhyh,
     private val bgnhhyyhhy: DevRepo,
     private val nhjuujujki: SharedPreferences,
     val bggthyyhhy: Application
@@ -60,7 +60,7 @@ class ViModt6g2t2g(
 
 
     suspend fun getData() {
-        bghyyhhy3.postValue(hyhyyhjujkikiik.getDat().body())
+        bghyyhhy3.postValue(hyhyyhjujkikiik.hyyhyhhyyh5().body())
         gt2gt2gt2gt5tg5tgfff()
     }
 
@@ -113,7 +113,7 @@ class ViModt6g2t2g(
     }
 
     suspend fun gt2gt2gt2gt5tg5tgfff() {
-        g2tg6gt.postValue(bgnhhyyhhy.getDataDev().body())
+        g2tg6gt.postValue(bgnhhyyhhy.hykyhhyoihyjhiy().body())
     }
 
     fun bgbgnh2hn5h5(cont: Context) {

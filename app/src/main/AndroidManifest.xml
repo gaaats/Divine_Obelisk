@@ -61,10 +61,10 @@
             android:value="@string/facebook_client_token" />
         <meta-data
             android:name="io.branch.sdk.BranchKey"
-            android:value="key_live_le2X3Ts2Gv3bT0j0TMVMromftzg34BsY" />
+            android:value="key_live_meW6XJJ4p6YXJBURzJnlZeidFtcnxxGY" />
         <meta-data
             android:name="io.branch.sdk.BranchKey.test"
-            android:value="key_test_ec0X8Tx5LCXhTZeXTMWttgdjtFb51rRi" />
+            android:value="key_test_biZ23IUXc5Y2OzSRCRd9voloFEmkxDZg" />
         <meta-data
             android:name="io.branch.sdk.TestMode"
             android:value="false" />

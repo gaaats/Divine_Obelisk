@@ -19,8 +19,8 @@ object Util26255 {
     val nammhy2y6h = "naming"
     val trololohy = "deeporg"
 
-    const val thyyh = "4a417fe7-c72c-4528-b4fb-b01f03a20edb"
-    val hyhyh = "86059042950042451356"
+    const val thyyh = "cd855d61-0824-462a-8282-fbac89d0d766"
+    val hyhyh = "41275746248412867984"
     val apppshy6 = "dDbjF8yBkVaFQQquyJYHjh"
     val paaaackhyyh = "com.artifexmundi.bale"
     val myIdhyyh: String = "myID"

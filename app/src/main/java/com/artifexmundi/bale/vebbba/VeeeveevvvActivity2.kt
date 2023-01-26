@@ -187,22 +187,29 @@ class VeeeveevvvActivity2 : AppCompatActivity() {
             Context.MODE_PRIVATE)
 
         val vfbgnhhnnh = cdvfbggbbg.getString(frgtgttggt, null)
-        Log.d("Lololol", vfbgnhhnnh.toString())
+        Log.d("lolo", vfbgnhhnnh.toString())
         val bgnhnhnhnh = cdvfbggbbg.getString(myIdhyyh, null)
         val bgnhnhnmj = cdvfbggbbg.getString(aps_idhyhy2hy, null)
 
 
         when (cdvfbggbbg.getString("WebInt", null)) {
             "campaign" -> {
+                Log.d("lolo", "campaign")
                 viewBeamModelgt2tg2tg.hhyvccxedrfrfrf(bgnhnhnmj.toString())
             }
             "deepLink" -> {
+                Log.d("lolo", "deepLink")
+
                 viewBeamModelgt2tg2tg.hhyvccxedrfrfrf(bgnhnhnmj.toString())
             }
             "deepLinkNOApps" -> {
+                Log.d("lolo", "deepLinkNOApps")
+
                 viewBeamModelgt2tg2tg.hhyvccxedrfrfrf(bgnhnhnhnh.toString())
             }
             "geo" -> {
+                Log.d("lolo", "geo")
+
                 viewBeamModelgt2tg2tg.hhyvccxedrfrfrf(bgnhnhnhnh.toString())
             }
         }

@@ -5,6 +5,7 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -72,6 +73,11 @@ class FillloFragment : Fragment() {
         AppsFlyerLib.getInstance().setCollectAndroidID(true)
 
         shareP.edit().putString(aps_idhyhy2hy, afId).apply()
+
+        Log.d("lolo", "count ${count}")
+        Log.d("lolo", "appCamp ${appCamp}")
+        Log.d("lolo", "countryDev ${countryDev}")
+        Log.d("lolo", "apps ${apps}")
 
         val linkApps = "$wv$hyhy5hyhy$appCamp&$cdvfttyyuu$afId&$yjuujuj$mainId&$vfbgbg$pack&$subFivehy$buildVers&$subSixyh62hy6$nammhy2y6h"
         val linkMT = "$wv$cdvfttyyuu$myTrId&$yjuujuj$myInstId&$vfbgbg$pack&$subFivehy$buildVers&$subSixyh62hy6$nammhy2y6h"
