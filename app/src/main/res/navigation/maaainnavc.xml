@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maaainnavc"
+    app:startDestination="@id/maaamammaFragment">
+
+    <fragment
+        android:id="@+id/maaamammaFragment"
+        android:name="com.artifexmundi.bale.MaaamammaFragment"
+        android:label="fragment_maaamamma"
+        tools:layout="@layout/fragment_maaamamma" >
+        <action
+            android:id="@+id/action_maaamammaFragment_to_conCOnFragment"
+            app:destination="@id/conCOnFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/conCOnFragment"
+        android:name="com.artifexmundi.bale.ConCOnFragment"
+        android:label="fragment_con_c_on"
+        tools:layout="@layout/fragment_con_c_on" >
+        <action
+            android:id="@+id/action_conCOnFragment_to_seciiManFragment"
+            app:destination="@id/seciiManFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seciiManFragment"
+        android:name="com.artifexmundi.bale.SeciiManFragment"
+        android:label="fragment_secii_man"
+        tools:layout="@layout/fragment_secii_man" >
+        <action
+            android:id="@+id/action_seciiManFragment_to_prrrFiilFragment"
+            app:destination="@id/prrrFiilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prrrFiilFragment"
+        android:name="com.artifexmundi.bale.PrrrFiilFragment"
+        android:label="fragment_prrr_fiil"
+        tools:layout="@layout/fragment_prrr_fiil" >
+        <action
+            android:id="@+id/action_prrrFiilFragment_to_fillloFragment"
+            app:destination="@id/fillloFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fillloFragment"
+        android:name="com.artifexmundi.bale.FillloFragment"
+        android:label="fragment_filllo"
+        tools:layout="@layout/fragment_filllo" />
+</navigation>

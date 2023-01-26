@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bacck"
+    android:layout_height="match_parent"
+    tools:context=".Gaame1Fragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hjjuujujujuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hyjujuuuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hyujjukikiik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hyujujujju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hyjuujujujuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+    <ImageView
+        android:id="@+id/hujjukiikikik"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/gggg"
+        app:layout_constraintBottom_toTopOf="@id/text_inpppp"
+        app:layout_constraintEnd_toEndOf="@id/hyujujujju"
+        app:layout_constraintStart_toStartOf="@id/hyujjukikiik"
+        app:layout_constraintTop_toBottomOf="@id/tv_game_naaame" />
+
+    <ImageView
+        android:id="@+id/img_title_1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:rotation="20"
+        android:scaleType="centerInside"
+        android:src="@drawable/gggg"
+        app:layout_constraintStart_toStartOf="@id/hyujjukikiik"
+        app:layout_constraintTop_toTopOf="@id/hujjukiikikik"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/img_title_2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:rotation="-10"
+        android:scaleType="centerInside"
+        android:src="@drawable/gggg"
+        app:layout_constraintBottom_toTopOf="@id/tv_game_naaame"
+        app:layout_constraintEnd_toEndOf="@id/tv_game_naaame"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_game_naaame"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:lines="1"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@id/hujjukiikikik"
+        app:layout_constraintEnd_toEndOf="@id/hyujujujju"
+        app:layout_constraintStart_toStartOf="@id/hyujjukikiik"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/text_inpppp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:fontFamily="@font/montserrat_black"
+        android:hint="Enter your nickname..."
+        android:paddingStart="16dp"
+        android:alpha="0.7"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/age"
+        app:layout_constraintEnd_toEndOf="@id/hyujujujju"
+        app:layout_constraintStart_toStartOf="@id/hyujjukikiik"
+        app:layout_constraintTop_toBottomOf="@id/hujjukiikikik" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/age"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:hint="Enter your AGE..."
+        android:background="@color/black"
+        android:paddingStart="16dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.7"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/tv_country"
+        app:layout_constraintEnd_toEndOf="@id/hyujujujju"
+        app:layout_constraintStart_toStartOf="@id/hyujjukikiik"
+        app:layout_constraintTop_toBottomOf="@id/text_inpppp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tv_country"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:hint="Enter your password ..."
+        android:paddingStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:alpha="0.7"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/hyujujujju"
+        app:layout_constraintStart_toStartOf="@id/hyujjukikiik"
+        app:layout_constraintTop_toBottomOf="@id/age" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_gameeee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/montserrat_black"
+        android:text="confirm"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/hjjuujujujuj"
+        app:layout_constraintEnd_toEndOf="@id/hyujujujju"
+        app:layout_constraintStart_toStartOf="@id/hyujjukikiik"
+        app:layout_constraintTop_toBottomOf="@id/tv_country"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+    <TextView
+        android:id="@+id/tv_dovn_text_looogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:fontFamily="@font/montserrat_black"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hjjuujujujuj" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
